@@ -10,7 +10,15 @@ body{
     justify-content: center;
     flex-direction: column;
     transition: all ease 0.3s;
-    background-color: rgb(244,241,247);
+    background-color: rgb(245,245,247);
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+    position: relative;
 }
 
 header{
