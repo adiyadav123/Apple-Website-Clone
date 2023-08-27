@@ -1,19 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'SF Pro Text', sans-serif;
+    /* font-family: 'SF Pro Text', sans-serif; */
 }
 
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('./assets/fonts/SF-Pro-Text-Medium.otf');
+}
+
+body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     transition: all ease 0.3s;
-    background-color: rgb(245,245,247);
+    background-color: rgb(245, 245, 247);
 }
 
-.cont{
+.cont {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,11 +30,11 @@ body{
     position: relative;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(245,245,247);
+    background-color: rgb(245, 245, 247);
     color: rgb(95, 92, 92);
 }
 
@@ -34,25 +43,25 @@ header{
     cursor: pointer;
 }
 
-.links ul li:hover{
+.links ul li:hover {
     color: black;
 }
 
-.icon{
+.icon {
     margin-top: -5px;
     font-size: 17px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.links ul li{
+.links ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 0 5px 0 5px ;
+    padding: 0 5px 0 5px;
     font-size: 12px;
     margin: 10px;
 }
 
-.str{
+.str {
     display: inline-block;
     padding: 6px;
     margin: 10px;
@@ -64,30 +73,31 @@ header{
     cursor: pointer;
 }
 
-.str i:hover{
+.str i:hover {
     color: black;
 }
 
-.news{
+.news {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    color: #1d1d1f ;
+    color: #1d1d1f;
     font-size: 14px;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
-.news .news_msg{
+.news .news_msg {
     padding: 5px 0 5px 3px;
-    margin:10px 0 10px 5px ;
+    margin: 10px 0 10px 5px;
 }
-.news .news_link{
-    margin:10px 0 10px 5px ;
+
+.news .news_link {
+    margin: 10px 0 10px 5px;
 }
 
 
-.main_page{
+.main_page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,21 +105,21 @@ header{
     text-align: center;
 }
 
-.main_page .main_page_head .main_head{
+.main_page .main_page_head .main_head {
     font-size: 55px;
     line-height: 55px;
     font-weight: 550;
     transform: scale(0.96, 1.01);
 }
 
-.plus_offer{
+.plus_offer {
     font-size: 27px;
     font-weight: 400;
 }
 
-.main_shop{
+.main_shop {
     color: #127be4;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     font-size: 20px;
     border: none;
     outline: none;
@@ -121,7 +131,7 @@ header{
     font-size: 13px;
 }
 
-.main_shop:hover{
+.main_shop:hover {
     text-decoration: underline;
 }
 
@@ -132,7 +142,7 @@ header{
     background-repeat: no-repeat;
 }
 
-.iphone_14_pro_page{
+.iphone_14_pro_page {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -145,24 +155,25 @@ header{
     padding-top: 70px;
 }
 
-.iphone_14_pro_page .iphone_head{
+.iphone_14_pro_page .iphone_head {
     color: white;
     font-size: 48px;
     font-weight: 500;
 }
 
-.iphone_14_pro_page .pro_beyond{
+.iphone_14_pro_page .pro_beyond {
     color: white;
     font-size: 30px;
     font-weight: 300;
 }
+
 .iphone_links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.iphone_14_wonderful{
+.iphone_14_wonderful {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -175,11 +186,12 @@ header{
     padding-top: 70px;
 }
 
-.iphone_14_head{
+.iphone_14_head {
     font-size: 50px;
     font-weight: 500;
 }
-.wonderful{
+
+.wonderful {
     font-size: 30px;
     font-weight: 300;
 }
