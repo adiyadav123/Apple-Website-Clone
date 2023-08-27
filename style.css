@@ -108,7 +108,7 @@ header{
 }
 
 .main_shop{
-    color: #0066cc;
+    color: #127be4;
     padding: 5px 10px ;
     font-size: 20px;
     border: none;
@@ -137,9 +137,49 @@ header{
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    height: 100vh;
+    height: 105vh;
     background: url('./assets/second_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 70px;
+}
+
+.iphone_14_pro_page .iphone_head{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.iphone_14_pro_page .pro_beyond{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.iphone_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone_14_wonderful{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100vh;
+    background: url('./assets/iphone_wonderful_back_s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+}
+
+.iphone_14_head{
+    font-size: 50px;
+    font-weight: 500;
+}
+.wonderful{
+    font-size: 30px;
+    font-weight: 300;
 }
