@@ -131,3 +131,14 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.iphone_14_pro_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: url('./assets/second_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
