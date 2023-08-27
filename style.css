@@ -135,8 +135,9 @@ header{
 .iphone_14_pro_page{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 80vh;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100vh;
     background: url('./assets/second_back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
