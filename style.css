@@ -1,3 +1,7 @@
+/* cloned by Aditya Yadav
+github - github.com/adiyadav123 */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -126,6 +130,9 @@ header {
     margin: 10px 0 10px 5px;
 }
 
+/* cloned by Aditya Yadav
+github - github.com/adiyadav123 */
+
 
 .main_page {
     display: flex;
@@ -248,6 +255,12 @@ header {
     flex-direction: column;
     text-align: center;
 }
+
+
+/* cloned by Aditya Yadav
+github - github.com/adiyadav123 */
+
+
 
 .features .easy .image{
     background-image: url(./assets/easy_feature_back.jpg);
@@ -440,3 +453,8 @@ header {
     font-size: 30px;
 }
 
+
+
+
+/* cloned by Aditya Yadav
+github - github.com/adiyadav123 */
