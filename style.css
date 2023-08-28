@@ -36,19 +36,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(228, 228, 228, 0.37);
+    background-color: rgba(228, 228, 228, 0.274);
     width: 100%;
     position: fixed;
     color: rgb(199, 192, 192);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .nav{
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: rgba(34, 34, 34, 0.829);
+    background-color: rgba(15, 15, 15, 0.795);
     justify-content: center;
     transition: all ease 0.3s;
 }
