@@ -397,3 +397,46 @@ header {
     font-size: 18px;
     font-weight: 300;
 }
+
+.airpods_trade {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.airpods_trade .airpods {
+    height: 100%;
+    width: 49%;
+    background-image: url('./assets/airpods_back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.airpods_trade .iphone_trade {
+    height: 100%;
+    width: 49%;
+    background-image: url('./assets//iphone_trade.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.pod_name {
+    margin-top: 60px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.pod_tagline {
+    font-size: 22px;
+}
+
+.airpods .iphone_links {
+    font-size: 30px;
+}
+
