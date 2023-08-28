@@ -220,7 +220,7 @@ header {
 }
 
 .features .easy .image{
-    background-image: url(/assets/easy_feature_back.jpg);
+    background-image: url(./assets/easy_feature_back.jpg);
     width: 558px;
     height: 300px;
     background-size: 558px 300px;
@@ -259,7 +259,7 @@ header {
 .mac_air_15 .image {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/mac_air_15.jpg);
+    background-image: url(./assets/mac_air_15.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -295,19 +295,19 @@ header {
     background-color: rgb(1,1,0);
 }
 
-.watch_ipad .watch .image {
+.watch_ipad .watch .watch_image {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/watch_8.jpg);
+    background-image: url("./assets/watch_8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.watch_ipad .ipad .image {
+.watch_ipad .ipad .ipad_image {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/ipad.jpg);
+    background-image: url("./assets/ipad.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
