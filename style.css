@@ -316,28 +316,81 @@ header {
     height: 100%;
     width: 49%;
     background-color: rgb(1,1,0);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    background: url('./assets/watch_8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .watch_ipad .ipad{
     height: 100%;
     width: 49%;
     background-color: rgb(1,1,0);
+    background-image: url("./assets/ipad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
-.watch_ipad .watch .watch_image {
+/* .watch_ipad .watch .watch_image {
     height: 100%;
     width: 100%;
     background-image: url("./assets/watch_8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+
+
+
+.watch_ipad .watch .watch_name {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: baseline;
+    margin-top: 70px;
+    font-weight: bold;
+    /* align-items: start; */
 }
 
-.watch_ipad .ipad .ipad_image {
-    height: 100%;
-    width: 100%;
-    background-image: url("./assets/ipad.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.watch_ipad .watch .watch_name i {
+    padding-right: 6px;
+}
+
+.watch_ipad .watch .series_8 {
+    color: rgb(200,32,38);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.watch_ipad .watch .watch_tagline {
+    margin-top: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.ipad .mac_name{
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.ipad .inline_mac {
+    /* display: inline-block; */
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
 }
