@@ -133,6 +133,7 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: rgb(242,242,244);
 }
 
 .main_page .main_page_head .main_head {
@@ -167,10 +168,11 @@ header {
 }
 
 .vid {
-    background-image: url('./assets/main_back_gif.gif');
+    /* background-image: url('./assets/main_back_gif.gif'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .iphone_14_pro_page {
