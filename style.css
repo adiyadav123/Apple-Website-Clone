@@ -324,6 +324,7 @@ header {
     flex-direction: column;
     background: url('./assets/watch_8.jpg');
     background-size: cover;
+    text-align: center;
     background-position: center;
     background-repeat: no-repeat;
 }
