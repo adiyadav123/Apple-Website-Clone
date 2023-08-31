@@ -3,7 +3,7 @@
 <br> 
 
 > Home Page
-<img src="./assets/readme/first_page.png" width="100%" height="400px">
+<img src="./assets/readme/first_page.png" width="auto" height="auto">
 
 > iPhone 14 Pro Page
 
