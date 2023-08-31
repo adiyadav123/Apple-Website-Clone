@@ -2,10 +2,11 @@
 > Link - https://adiyadav123.github.io/Apple-Website-Clone/
 <br> 
 
-# Home Page 
+> Home Page
 <img src="./assets/readme/first_page.png" width="100%" height="400px">
 <br>
-> iPhone 14 Pro Page 
+> iPhone 14 Pro Page
+<br>
 <br>
 <img src="./assets/readme/second_page.png" width="100%" height="400px">
 <br>
